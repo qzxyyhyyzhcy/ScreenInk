@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">屏幕批注</string>
+    <string name="accessibility_summary">在当前屏幕画线，并按需截图</string>
+    <string name="accessibility_description">显示手写批注层。滚动批注时读取当前窗口图像和滚动位置，让标记跟随页面。截图保存在本机。</string>
+    <style name="InkTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorAccent">#65D8BC</item>
+    </style>
+</resources>
